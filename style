@@ -1,0 +1,284 @@
+@-moz-document domain("aprelteam.su") {
+/*боковое меню*/
+
+.user-short-description {
+  padding-top: 74px;
+  position: relative;
+}
+
+.navigation-widget .badge-list {
+  margin-top: 10px;
+}
+
+.navigation-widget .user-stats {
+  margin-top: 20px;
+}
+
+.navigation-widget .menu {
+  margin: 20px 0;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.menu .menu-item {
+  padding: 0 10px;
+  margin-bottom: 1px;
+}
+
+.menu .menu-item .menu-item-link {
+	display: -ms-flexbox;
+	display: flex;
+    align-items: center;
+	height: 48px;
+	padding-left: 50px;
+	border-radius: 12px;
+	font-size: .875rem;
+	font-weight: 700;
+	line-height: 1.2857142857em;
+	position: relative;
+	transition: all .2s ease-in-out;
+}
+
+#navigation-widget {
+	height: 714px;
+	width: 340px;
+}
+
+.navigation-widget .navigation-widget-cover {
+	width: 100%;
+	height: 120px;
+}
+
+
+/*форум правки*/
+
+.li.bbp-body {
+    padding: 15px;
+}
+
+#bbpress-forums .vikinger-forum-info-wrap .vikinger-forum-info .bbp-forum-title {
+	font-size: 1.125rem;
+	font-weight: 700;
+	line-height: 1.3333333333em;
+	color: #13def5;
+}
+
+#bbpress-forums .vikinger-forum-info-wrap .vikinger-forum-info .bbp-forum-content {
+	margin: 0px 0 0;
+	padding: 0;
+	font-size: .875rem;
+	font-weight: 500;
+	line-height: 1.4285714286em;
+}
+
+#bbpress-forums li.bbp-body ul.forum, #bbpress-forums li.bbp-body ul.topic {
+	display: -ms-flexbox;
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	border: none;
+	background-color: var(--color-box-background-alt);
+}
+
+#bbpress-forums .bbp-forums-list .bbp-forum {
+	display: block;
+	margin-top: 4px;
+	font-size: .875rem;
+	font-weight: 700;
+}
+
+#bbpress-forums fieldset.bbp-form .form-item {
+	margin-top: 10px;
+}
+
+#bbpress-forums div.bbp-the-content-wrapper {
+	margin: 10px 0 0;
+}
+
+#bbpress-forums div.bbp-submit-wrapper {
+	float: none;
+	margin-top: 1px;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: flex-end;
+}
+
+*, ::before, ::after {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	color: #c9ddd5;
+}
+
+
+/*информбюро, главная страница*/
+
+.form-textarea-limit {
+	height: 30px;
+}
+
+.quick-post-body > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > textarea:nth-child(2) {
+    line-height: 1
+}
+
+.widget-box .widget-box-content {
+	margin-top: 15px;
+}
+
+.user-status-list .user-status {
+	margin-bottom: 15px;
+}
+
+.achievement-preview-list .achievement-preview {
+	margin-bottom: 10px;
+}
+
+.widget-box .widget-box-status .widget-box-status-html-content a {
+	color: #3ab7c4;
+	font-weight: 600;
+}
+
+.achievement-preview .achievement-preview-info .achievement-preview-title {
+	font-size: .875rem;
+	font-weight: 700;
+	line-height: 1.5;
+}
+
+.quick-filters .quick-filters-tabs {
+	display: -ms-flexbox;
+	display: flex;
+	margin-right: 40px;
+}
+
+
+.section-banner .section-banner-icon {
+    content: url(https://i.imgur.com/wcjtP45.png)
+}
+
+.quick-post .quick-post-footer {
+	min-height: 50px;
+}
+
+.post-options {
+	height: 50px;
+}
+
+/*профиль*/
+
+.icon-facebook, .icon-twitter, .icon-twitch, .icon-youtube, .icon-instagram, .icon-patreon, .icon-discord, .icon-behance, .icon-deviantart, .icon-artstation, .icon-dribbble, .icon-spotify, .icon-snapchat, .icon-skype, .icon-reddit, .icon-pinterest, .icon-messenger, .icon-linkedin, .icon-github, .icon-whatsapp, .icon-vk, .icon-tumblr, .icon-tiktok, .icon-unsplash, .icon-flickr, .icon-cross {
+	fill: #fff;
+	width: 25px;
+	height: 25px;
+}
+
+.widget-box .widget-box-title .highlighted {
+	color: var(--color-primary-dark);
+	padding-left: 7px;
+}
+
+.no-results-text {
+	padding-top: 15px;
+}
+
+.profile-header .profile-header-info {
+	padding-bottom: 20px;
+	position: relative;
+}
+
+
+/*делегаты*/
+
+.user-preview.small .user-preview-info .user-stats, .user-preview.small .user-preview-info .social-links {
+	margin-top: 20px;
+}
+
+.user-preview .user-preview-info .no-results-text {
+	margin-top: 5px;
+	line-height: 25px;
+}
+
+
+/*телеграммы*/
+
+.bp-messages-wrap .bm-messages-list .bm-list .bm-messages-stack.bm-left-side .bm-content .bm-messages-listing .bm-message .bm-message-content:not(.bm-hide-background) {
+	border-radius: var(--bm-message-border-radius) !important;
+	background: rgba(var(--left-message-bg-color), 1);
+	color: rgba(var(--left-message-text-color), 1);
+	background-color: #2d4174;
+}
+
+.bp-messages-wrap .bm-messages-list .bm-list .bm-sticky-date {
+	background: #2d4174;
+
+}
+
+
+.bp-messages-wrap .bm-side-tabs.bm-side-tabs-border-bottom > div.active {
+	border-bottom: 1px solid rgba(var(--bm-border-secondary-color), 1);
+	background: #2d4174;
+}
+
+.bp-messages-wrap .chat-footer {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply .bm-attachment {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply.bm-attachments .bm-editor {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply .bm-editor .bm-editor-content {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply .bm-emojies {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply .bm-send-message {
+	background: #2d4174;
+
+}
+
+.bp-messages-wrap .bm-reply {
+	border-top: 0x solid rgba(var(--bm-border-color), 0.62);
+}
+
+.bp-messages-wrap .bp-messages-side-threads > * {
+	border-right: 0x solid rgba(var(--bm-border-color), 0.62);
+	height: 62px;
+}
+
+.bp-messages-wrap .chat-header .thread-info .thread-info-data .sub-name {
+	margin-top: -5px;
+}
+
+.bp-messages-wrap .bm-reply .bm-editor .bm-editor-content:empty::before {
+	color: #ffffff80;
+    background: #2d4174
+}
+
+.has-light-green-cyan-background-color {
+	background-color: #2d4174 !important;
+}
+
+/*кнопочки*/
+
+.button.secondary {
+	background-color: var(--color-secondary);
+	box-shadow: var(--color-secondary-shadow);
+	color: black;
+}
+}
