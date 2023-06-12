@@ -54,6 +54,10 @@
 
 /*форум правки*/
 
+#bbpress-forums li.bbp-body ul.hentry:last-child, #bbpress-forums li.bbp-body div.hentry:last-child {
+	margin-bottom: 10px;
+}
+
 .li.bbp-body {
     padding: 15px;
 }
